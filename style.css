@@ -73,6 +73,9 @@ body {
     border: 4px solid white;
     width:auto;
 }
+.project p {
+    margin: 12px 30px;
+}
 
 .title {
     font-size: 30px;
@@ -86,63 +89,38 @@ ol {
 
 .screenshot {
     display:inline-block;
+    width:49%;
 }
-
 .screenshot img {
-    height: 550px;
-    width: 600px
+    width:100%;
+}
+.perfume-collection .s1 {
+    width:70%;
+}
+.perfume-collection .s2 {
+    width:60%;
+}
+.radio .screenshot {
+    display:block;
+    width: 70%;
+}
+.telephone .screenshot {
+    width: 60%
 }
 
-.readers-room img {
-    height: 550px;
-    width: 600px
-}
-
-.perfume-collection .one { 
-    width: 1000px
-}
-
-.perfume-collection .two { 
-    width: 900px;
-}
-
-.radio img {
-    width: 900px;
-}
-
-.telephone img {
-    width: 900px;
-}
 
 .others-item {
-    margin:0 0 40px 0;
+margin-right: 1.5%;
 }
 
-.ac {
-    width: 900px;
-    height: 500px;
+.others-item img{
+    max-width: 100%;
 }
 
-.phone {
-    width: 900px;
-    height: 550px;
-}
+.others-list h4 {
+    font-size:20px;
+    margin:30px 0 10px 0;
 
-.extension-board {
-    width: 700px;
-    height: 600px;
-}
-
-.cv {
-    width:100%;
-    border-radius: 5%;
-    border: 2px solid black;
-
-}
-
-.cv-container {
-    padding:1%;
-    
 }
 
 @media (max-width:625px) {
