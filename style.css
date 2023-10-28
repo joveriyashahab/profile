@@ -87,6 +87,10 @@ ol {
     list-style: none;
 }
 
+.screenshots {
+    padding-left:5%;
+    padding-right: 5%;
+}
 .screenshot {
     display:inline-block;
     width:49%;
@@ -122,6 +126,11 @@ margin-right: 1.5%;
     margin:30px 0 10px 0;
 }
 
+.others-list {
+    padding-left:5%;
+    padding-right: 5%;
+}
+
 .cv {
     width:100%;
     border-radius: 5%;
@@ -150,5 +159,13 @@ margin-right: 1.5%;
     }
     .headline {
         font-size: 30px;
+    }
+}
+
+@media(max-width:800px) {
+    .screenshot {
+        display: block;
+        width: auto;
+        max-width:90%;
     }
 }
