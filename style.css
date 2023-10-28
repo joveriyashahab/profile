@@ -120,7 +120,18 @@ margin-right: 1.5%;
 .others-list h4 {
     font-size:20px;
     margin:30px 0 10px 0;
+}
 
+.cv {
+    width:100%;
+    border-radius: 5%;
+    border: 2px solid black;
+
+}
+
+.cv-container {
+    padding:1%;
+    
 }
 
 @media (max-width:625px) {
