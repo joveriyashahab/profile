@@ -1,0 +1,165 @@
+body {
+    background-color: darksalmon;
+
+}
+
+.profile {
+    border-radius: 100%;
+}
+
+.logo {
+
+    display: inline-block;
+    font-size: 80px;
+    font-style: oblique;
+    margin: 9px 0px 0px 20px ;
+    font-family: 'Caveat', cursive;
+    color:wheat;
+}
+
+.header {
+    background-image: url("./Assets/bg2.jpg");
+    width: 100%; 
+    border-top: 1px solid black;   
+}
+
+.headline {
+    margin-left:10%;
+    display:inline-block;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    font-size: 50px;
+
+}
+
+.profile-picture {
+    border-radius: 50%;
+    display: inline;
+    width:150px;
+    height:150px;
+    float:right;
+    margin-right: 20px;
+}
+.nav-menu {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+
+}
+.navbar {
+    list-style: none;
+    background-color: wheat;
+    margin:0;
+    padding: 1% 0 1% 1% ;
+}
+
+.navbar >li {
+    display: inline;
+    font-size: 20px;
+    margin-right: 1%;
+    margin: 1%;
+}
+.navbar>li>a {
+    text-decoration: none;
+    font-size: 22px;
+    color:darkolivegreen
+}
+.navbar>li>a:hover {
+    background-color: lightgray;
+}
+
+.project {
+    margin: 10px 0 0 0;
+    padding: 0 0 0 10px;
+    border: 4px solid white;
+    width:auto;
+}
+
+.title {
+    font-size: 30px;
+    text-align: center;
+    margin: 20px 0 0 0 ; 
+}
+
+ol {
+    list-style: none;
+}
+
+.screenshot {
+    display:inline-block;
+}
+
+.screenshot img {
+    height: 550px;
+    width: 600px
+}
+
+.readers-room img {
+    height: 550px;
+    width: 600px
+}
+
+.perfume-collection .one { 
+    width: 1000px
+}
+
+.perfume-collection .two { 
+    width: 900px;
+}
+
+.radio img {
+    width: 900px;
+}
+
+.telephone img {
+    width: 900px;
+}
+
+.others-item {
+    margin:0 0 40px 0;
+}
+
+.ac {
+    width: 900px;
+    height: 500px;
+}
+
+.phone {
+    width: 900px;
+    height: 550px;
+}
+
+.extension-board {
+    width: 700px;
+    height: 600px;
+}
+
+.cv {
+    width:100%;
+    border-radius: 5%;
+    border: 2px solid black;
+
+}
+
+.cv-container {
+    padding:1%;
+    
+}
+
+@media (max-width:625px) {
+    .profile-picture {
+        display: none;
+    }
+}
+
+@media (max-width:1076px) {
+    .profile-picture {
+        width:100px;
+        height:100px;
+    }
+    .logo {
+        font-size: 40px;
+    }
+    .headline {
+        font-size: 30px;
+    }
+}
