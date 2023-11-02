@@ -58,6 +58,7 @@ body {
     margin-right: 1%;
     margin: 1%;
 }
+
 .navbar>li>a {
     text-decoration: none;
     font-size: 22px;
@@ -70,7 +71,7 @@ body {
 .project {
     margin: 10px 0 0 0;
     padding: 0 0 0 10px;
-    border: 2px solid white;
+    border: 2px solid #ffff;
     border-radius: 2%;
     width:auto;
 }
