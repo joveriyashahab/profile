@@ -70,7 +70,8 @@ body {
 .project {
     margin: 10px 0 0 0;
     padding: 0 0 0 10px;
-    border: 4px solid white;
+    border: 2px solid white;
+    border-radius: 2%;
     width:auto;
 }
 .project p {
@@ -87,6 +88,9 @@ ol {
     list-style: none;
 }
 
+img {
+    border-radius: 1%;
+}
 .screenshots {
     padding-left:5%;
     padding-right: 5%;
