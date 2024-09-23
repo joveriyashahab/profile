@@ -118,6 +118,11 @@ img {
     width: 60%
 }
 
+.diamond-ring .screenshot {
+    width: 80%;
+    display:block;
+}
+
 .video {
     width:80%;
     margin-left: 10%;
@@ -128,6 +133,14 @@ img {
 
 .helicopter video{
     width:100%;
+}
+
+.diamond-ring video {
+    text-align: center;
+    width:100%;
+}
+.diamond-ring .video{
+    margin-left: 0;
 }
 
 .others-item {
